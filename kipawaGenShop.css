@@ -1,0 +1,53 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(216, 239, 243);
+  padding: 10% 10%;
+}
+.major {
+  font-size: large;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.shop {
+  background-color: rgb(178, 188, 206);
+  overflow: hidden;
+  display: flex;
+  text-align: right;
+  opacity: 70%;
+  font-family: "Courier New", Courier, monospace;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+#logo {
+  width: 100px;
+  height: 100px;
+  scroll-padding-block: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#addsBtn {
+  background-color: rgb(89, 238, 238);
+}
+
+#clrBtn {
+  background-color: rgb(89, 238, 238);
+}
+
+#kipawa {
+  background-color: rgb(165, 194, 245);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.purchased {
+  text-decoration: line-through;
+  background-color: #606e9b;
+}
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border-bottom: 1px solid #5d7a8b;
+}
+.list-item button {
+  margin-left: 10px;
+}
