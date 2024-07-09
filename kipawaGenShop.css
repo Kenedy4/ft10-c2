@@ -20,8 +20,9 @@ h1:hover {
 .shop {
   background-color: rgb(178, 188, 206);
   overflow: hidden;
+  justify-content: space-around;
   display: flex;
-  text-align: right;
+  text-align: center;
   opacity: 80%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
@@ -34,6 +35,18 @@ h1:hover {
   scroll-padding-block: 10px;
   margin-left: 10px;
   margin-right: 10px;
+  ruby-span: inherit;
+}
+.items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border-bottom: 1px solid #5d7a8b;
+}
+.items:hover {
+  cursor: pointer;
+  background-color: rgb(117, 177, 40);
 }
 #logo:hover {
   cursor: pointer;
@@ -63,15 +76,9 @@ h1:hover {
 }
 .purchased {
   text-decoration: line-through;
-  background-color: #606e9b;
+  background-color: #f01b37;
 }
-.list-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px;
-  border-bottom: 1px solid #5d7a8b;
-}
-.list-item button {
-  margin-left: 10px;
+.purchased:hover {
+  cursor: pointer;
+  background-color: rgb(205, 212, 179);
 }
