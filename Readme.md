@@ -55,4 +55,6 @@
 
     This program can be useful for small, medium and large businesses that want to venture in ebusiness of any calibre.
 
-## License
+## Screenshots of the application
+
+![Here is the image](KpwGenshop.png)
