@@ -57,4 +57,4 @@
 
 ## Screenshots of the application
 
-![Here is the image](KpwGenshop.png)
+![click this link to view the screenshot of the system](KpwGenshop.png)
