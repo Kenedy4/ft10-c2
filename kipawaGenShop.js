@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Function to mark an item as purchased
-  window.markPurchased = (index) => {
+  document.markPurchased = (index) => {
     // Toggle the purchased status of the item
     shoppingList[index].purchased = !shoppingList[index].purchased;
     // Update local storage and render the updated list

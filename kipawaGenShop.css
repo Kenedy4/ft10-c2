@@ -11,6 +11,14 @@ h1:hover {
   cursor: pointer;
   color: #5468c4;
 }
+h2 {
+  color: rgb(165, 55, 55);
+  text-align: center;
+}
+h2:hover {
+  cursor: pointer;
+  color: white;
+}
 .major {
   font-size: large;
   padding-left: 20%;
@@ -50,6 +58,8 @@ h1:hover {
 }
 #logo:hover {
   cursor: pointer;
+  /* color: green;
+  flood-opacity: 10%; */
 }
 #kipawa {
   background-color: rgb(79, 143, 143);
